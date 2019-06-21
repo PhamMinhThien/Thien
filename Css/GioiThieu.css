@@ -4,6 +4,7 @@
             background-color:rgb(235, 61, 119);
             line-height: 45px;
             margin: 0px 0px 10px 0px;
+            width: 1340px;
         }
         #header>#sdt{
             width: 100%;
@@ -27,8 +28,12 @@
         color: green    
         
         }
-
-
+        #tt{
+            width: 1340px;
+        }
+        #head2{
+            width: 1340px   ;
+        }
         #head2>div>li>a{
             display: block;
             text-decoration: none;
@@ -51,11 +56,6 @@
         
         }
         
-        
-
-       
-       
-
         #head5{
             height: 3px;
             width: 1100px;
@@ -63,7 +63,6 @@
             margin: 10px 0px 10px 130px;
             border-radius: 3px
         }
-
 
        #head6{
            float: left;
@@ -78,8 +77,12 @@
        #head8{
            height: 2px;
            background-color: gray;
+           width: 1340px;
         
        } 
+       head9{
+           width: 1340px;
+       }
 
        #head9>#ktrong{
         display:block;
@@ -114,13 +117,17 @@
 
         #head10{
             height: 100px;
+            width: 1340px;
         }
-
+        hr{
+            width: 1340px;
+        }
         #head4{
             height: 200px;
         }
         #thongtin{
             height: 350px;
+            width: 1340px;
         }
         #thongtin>#map2{
             width: 30%;

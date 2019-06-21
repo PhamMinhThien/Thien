@@ -1,5 +1,5 @@
 #header{
-    background-color:rgb(231, 43, 106);
+    background-color:rgb(235, 61, 119);
     line-height: 45px;
     margin: 0px 0px 10px 0px;
     width: 1340px;
@@ -59,7 +59,7 @@ font-weight: bold
 }
 
 #head3{
-    background-color: rgb(167, 212, 233);
+    background-color: rgb(204, 225, 235);
     height: 80px;
     margin: 15px 0px 0px 0px;
     width: 1340px;
@@ -97,61 +97,11 @@ font-weight: bold
 
 #head4{
     background-color: rgb(255, 255, 255);
-    height: 450px;
-    width: 1340px;
-}
-#head4>#tour{
-    width: 23%;
-    float: left;
-    border-radius: 5px;
-    box-shadow: 0px 2px 2px 0px rgb(141, 219, 125);
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    height:350px ;
-    background-color: white;
-}
-#head4>#tour:hover{
-    background-color: rgb(234, 238, 240);
-    box-shadow: 2px 5px 5px 0px gray
-
-}
-#head4>#tour>#tentour{
+    margin: 0px 150px 0px 150px;
+    height: 1290px;
     font-variant: initial;
-    font-size: larger;
-    color: blue;
-    font-weight: bold;
-    margin: 5px 0px 9px 0px;
-    background-color: gainsboro;      
-}
-#head4>#tour>#tentour>a{
-    text-decoration-line: none
-}
-#head4>#tour>#tentour>a:hover{
-color: palevioletred;
-
-}
-#head4>#tour>img{
-    border-radius: 5px
-}
-#head4>#tour>#gia{
-    font-variant: initial;
-    color: red;
-    font-weight:bolder;
-    font-size: x-large;
-    margin: 10px 0px 9px 0px
-}
-#head4>#xemtatca>a{
-    font-variant: small-caps;
-    color: green
-}
-#head4>#xemtatca>a:hover{
-    font-variant: small-caps;
-    color: palevioletred
-}
-#head4>#tour>#thongtin{
-    color: black
+    font-size: large;
+    width: 1000px;
 }
 #head4>#dl{
     color: blueviolet;
@@ -181,13 +131,14 @@ color: palevioletred;
 #head8{
    height: 2px;
    background-color: gray;
-   width: 1340px;
-} 
 
+} 
+#head9{
+    width: 1340px;
+}
 #head9>#ktrong{
 display:block;
 height: 110px;
-width: 1340px;
 }
 #head9>#ktrong>#gockh{
     width: 20%;
@@ -219,5 +170,30 @@ display: inline-block;
 #head10{
     height: 100px;
     width: 1340px;
+
 }
+#tt{
+    width: 650px;
+    float: left;
+}
+#map{
+    width: 300px;
+    float: right;
+}
+#video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+#video>iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 

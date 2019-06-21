@@ -1,5 +1,4 @@
 
-
     #box{
         height: 530px;
         width: 26%;
@@ -14,7 +13,9 @@
     }
     #dk{
         height: 35px;
-        background-color: rgb(196, 189, 189);
+        background-color: rgb(221, 210, 210);
+        font-variant: small-caps;
+        color: rgb(19, 19, 206)
     }
     #tren>input{
         float: right
@@ -26,9 +27,18 @@
         text-decoration: none;
         
     }
+    #ve>:hover{
+        background-color: rgb(226, 191, 145)
+    }
     #ve>a{
         box-shadow: 0px 0px 0px 1px gray;
         text-decoration: none;
         background-color: rgb(136, 233, 201);
         
+    }
+    form{
+        background-color: rgb(225, 237, 247)
+    }
+    body{
+        background-color: rgba(209, 206, 206, 0.76)
     }
