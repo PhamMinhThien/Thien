@@ -1,0 +1,214 @@
+#header{
+    background-color:rgb(235, 61, 119);
+    line-height: 45px;
+    margin: 0px 0px 10px 0px;
+}
+#header>#sdt{
+    width: 100%;
+    font-variant: small-caps;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+#header>#sdt>#li{
+    float: right;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 0px 0px 0px 0px;
+}
+
+#header>#sdt>#li>a{
+    text-decoration-line:none;
+    color: chartreuse
+}
+#header>#sdt>#li>a:hover{
+color: green    
+
+}
+
+
+#head2>div>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;  
+    padding: 0px 10px;
+    line-height: 40px;
+    color: gray;         
+}
+#head2>div>li>a:hover{
+    color: gray
+}
+#head2>div>li{
+    display: inline-block;
+    margin: 15px 0px 0px 0px
+}
+#head2>div>li:hover{
+background-color: rgb(223, 219, 213)    ;
+font-weight: bold
+
+}
+#nen>img{
+    margin: 20px 0px 0px 0px
+}
+
+#head3{
+    background-color: rgb(204, 225, 235);
+    height: 80px;
+    margin: 15px 0px 0px 0px
+}
+#head3>div{
+    margin: 15px 0px 0px 50px;
+    height: 50px;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    display:inline-block;
+    
+}
+#head3>div:hover{
+    background-color: rgb(245, 187, 219)
+}
+#head3>div>li{
+    display:inline-block;
+}
+#head3>div>li>a{
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: bolder;
+    font-size: large;  
+    padding: 0px 10px;
+    line-height: 40px;
+    color: green
+}
+#head3>div>li>a:hover{
+    color: palevioletred
+
+}
+
+
+
+#head4{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+}
+#head4>#tour{
+    width: 23%;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgb(141, 219, 125);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    height:350px ;
+    background-color: white;
+}
+#head4>#tour:hover{
+    background-color: rgb(234, 238, 240);
+    box-shadow: 2px 5px 5px 0px gray
+
+}
+#head4>#tour>#tentour{
+    font-variant: initial;
+    font-size: larger;
+    color: blue;
+    font-weight: bold;
+    margin: 5px 0px 9px 0px;
+    background-color: gainsboro;      
+}
+#head4>#tour>#tentour>a{
+    text-decoration-line: none
+}
+#head4>#tour>#tentour>a:hover{
+color: palevioletred;
+
+}
+#head4>#tour>img{
+    border-radius: 5px
+}
+#head4>#tour>#gia{
+    font-variant: initial;
+    color: red;
+    font-weight:bolder;
+    font-size: x-large;
+    margin: 10px 0px 9px 0px
+}
+#head4>#xemtatca>a{
+    font-variant: small-caps;
+    color: green
+}
+#head4>#xemtatca>a:hover{
+    font-variant: small-caps;
+    color: palevioletred
+}
+#head4>#tour>#thongtin{
+    color: black
+}
+#head4>#dl{
+    color: blueviolet;
+    font-variant:normal;
+    font-size: larger
+}
+
+#head5{
+    height: 3px;
+    width: 1100px;
+    background-color: rgb(233, 53, 89);
+    margin: 10px 0px 10px 130px;
+    border-radius: 3px
+}
+
+
+#head6{
+   float: right;
+}
+#head7{
+   margin:0px 0px 0px 400px ;
+   width: 500px;
+   height: 2px;
+   background-color: rgb(209, 178, 178) 
+} 
+
+#head8{
+   height: 2px;
+   background-color: gray;
+
+} 
+
+#head9>#ktrong{
+display:block;
+height: 110px;
+}
+#head9>#ktrong>#gockh{
+    width: 20%;
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    color: red
+}
+#head9>#ktrong>#gockh>div>a{
+text-decoration: none;
+color: black
+}
+#head9>#ktrong>#gockh>div>a:hover{
+color: palevioletred    
+}
+#head9>#ktrong>#lienhe{
+width: 15%;
+display: inline-block;
+background-color:rgb(255, 255, 255);
+text-align: center
+}
+#head9>#ktrong>#lienhe>#logo>li>a{
+display: block
+}
+#head9>#ktrong>#lienhe>#logo>li{
+display: inline-block;
+
+}
+
+#head10{
+    height: 100px;
+}
+
+</style>

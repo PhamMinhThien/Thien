@@ -1,0 +1,86 @@
+<html>
+<head>
+    <style>
+
+    #box{
+        height: 530px;
+        width: 26%;
+        box-shadow: 0px 0px 5px 0px black;
+        margin: 80px 0px 0px 450px
+    }#box>h3{
+        margin: 0px 0px 0px 20px
+    }
+    #nut{
+        float:right;
+        margin: 0px 20px 0px 0px
+    }
+    #dk{
+        height: 35px;
+        background-color: rgb(196, 189, 189);
+    }
+    #tren>input{
+        float: right
+    }#nut>input:hover   {
+        color: yellowgreen
+    }
+    #ve>{
+        font-variant: small-caps;
+        text-decoration: none;
+        
+    }
+    #ve>a{
+        box-shadow: 0px 0px 0px 1px gray;
+        text-decoration: none;
+        background-color: rgb(136, 233, 201);
+        
+    }
+    </style>
+    <title>Đăng Ký</title> 
+</head>
+<body class="formGroup" >
+        <div id="box" >
+        <div id="dk" align = "center">
+            <h2>Đăng ký tài khoản</h2>
+        </div>
+        <form action="Register.php" method="post" enctype="multipart/form-data">
+            <h3 id="tren">
+            <label> Tên đăng nhập: </label> 
+            <input name="họ và tên" type="text"> <br><br>
+            <label>Mật khẩu:      </label>
+            <input type="text"><br><br>
+            <label >Nhập lại mật khẩu: </label>
+            <input type="text"><br><br>
+            <label for="">Email: </label> 
+            <input type="text"><br><br>
+            </h3>
+            <h3>
+            <label>Giới tính: </label> 
+            <label><input name="gender" type="radio" checked> Nam</label>
+            <label><input name="gender" type="radio" > Nữ</label>    
+            <br>
+            <input  type="file"> <br>
+            <br>
+            <label >Thành Phố: </label>
+            
+            <select class="id">
+                <option>Tp.HCM </option>
+                <option > Tp.Hà Nội</option>
+        
+            </select>
+            <div ><br><br>
+                    <div>Ghi chú:</div>
+                    <textarea rows="3"></textarea>
+                </div>
+                <br>
+                <br>
+                <div id="nut" >
+                    <input id="id" type="submit" value="Đăng ký">
+                    <input id="id" type="submit" value="Nhập lại">
+                </div>
+            <div id="ve"><a href="Trang Chu.html"> << Về trang chủ</a></div>
+        </h3 >
+    </form>
+</div>
+
+</body>
+</html>
