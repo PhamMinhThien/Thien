@@ -30,7 +30,7 @@ color: green
     width: 1340px;
 }
 
-#head2>div>li>a{
+#head2>div>ul>li>a{
     display: block;
     text-decoration: none;
     font-variant: small-caps;
@@ -39,18 +39,56 @@ color: green
     line-height: 40px;
     color: gray;         
 }
-#head2>div>li>a:hover{
+#head2>div>ul>li>a:hover{
     color: gray
 }
-#head2>div>li{
+#head2>div>ul>li{
     display: inline-block;
     margin: 15px 0px 0px 0px
 }
-#head2>div>li:hover{
+#head2>div>ul>li:hover{
 background-color: rgb(223, 219, 213)    ;
 font-weight: bold
 
 }
+
+#head2>div>ul>li>ul{
+    position: absolute;
+    display: none;
+}
+#head2>div>ul>li>ul>li>a{
+    display: block;
+}
+#head2>div>ul>li:hover>ul{
+    display: block
+}
+#head2>div>ul>li>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: white;
+    width: 220px;
+    box-shadow: 0px 0px 1px gray;
+}
+#head2>div>ul>li>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: orangered;
+    padding: 0px 10px;
+    line-height: 30px;
+    text-align: left
+}
+#head2>div>ul>li>ul>li>a:hover{
+background-color: aqua;
+color: orange
+}
+
+
+
+
+
 #nen{
     width: 1340px;
 }
